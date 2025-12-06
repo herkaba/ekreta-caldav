@@ -1,6 +1,4 @@
-import os
-import pickle
-import time
+import os, pickle, time, datetime, re
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,12 +7,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
+from caldav import DAVClient
+from icalendar import Event, Calendar
 from dotenv import load_dotenv
+from rich import print
 
 class GetSchedule:
     def __init__(self):
         pass
+
     def parse_html(self):
+        kl = KretaLogin()
+        kl.login_and_save_html()
         html = open("temp/orarend.html", "r", encoding="utf8").read()
         soup = BeautifulSoup(html, "html.parser")
         day_headers = soup.select(".fc-day-header")
@@ -56,12 +60,14 @@ class GetSchedule:
                 events.append(event_data)
         return events
 
+
 class KretaLogin:
     def __init__(self):
         load_dotenv()
         self.username = os.getenv("kreta_usr")
         self.password = os.getenv("kreta_pwd")
         os.makedirs("temp", exist_ok=True)
+
     def setup_driver(self):
         service = Service("/opt/chromedriver/installs/chromedriver-linux64/chromedriver")
         options = Options()
@@ -71,6 +77,7 @@ class KretaLogin:
         driver = webdriver.Chrome(service=service, options=options)
         wait = WebDriverWait(driver, 15)
         return driver, wait
+
     def login_and_save_html(self):
         driver, wait = self.setup_driver()
         driver.get("https://verka.e-kreta.hu/Orarend/InformaciokOrarend")
@@ -118,3 +125,54 @@ class KretaLogin:
         print("HTML mentve: temp/orarend.html")
         os.remove("temp/cookies.pkl")
         driver.quit()
+
+
+class CalUpload:
+    def __init__(self):
+        load_dotenv()
+        self.url = os.getenv("caldav_url")
+        self.username = os.getenv("caldav_usr")
+        self.password = os.getenv("caldav_pwd")
+        self.client = DAVClient(self.url, username=self.username, password=self.password)
+        self.principal = self.client.principal()
+        self.calendars = self.principal.calendars()
+        if not self.calendars:
+            raise Exception("Nincs elérhető naptár!")
+        self.calendar = self.calendars[0]
+        print(f"Csatlakozva a naptárhoz: {self.calendar.name}")
+
+    def upload_events(self, events):
+        # Töröljük a régi eseményeket
+        for e in self.calendar.events():
+            e.delete()
+        # Feltöltés
+        for ev in events:
+            try:
+                start_parts = ev["date"].strip(".").split(".")
+                start_year, start_month, start_day = map(int, start_parts)
+                full_time = ev["full_time"]
+                start_str, end_str = [t.strip() for t in full_time.split("-")]
+                start_hour, start_minute = map(int, start_str.split(":"))
+                end_hour, end_minute = map(int, end_str.split(":"))
+                start_dt = datetime.datetime(start_year, start_month, start_day, start_hour, start_minute)
+                end_dt = datetime.datetime(start_year, start_month, start_day, end_hour, end_minute)
+                subject = ev["subject"]
+                ical_event = Event()
+                ical_event.add("summary", subject)
+                ical_event.add("dtstart", start_dt)
+                ical_event.add("dtend", end_dt)
+                cal = Calendar()
+                cal.add_component(ical_event)
+                self.calendar.add_event(cal.to_ical())
+                print(f"Feltöltve: {subject} - {ev['date']} {full_time}")
+            except Exception as e:
+                print(f"Hiba az esemény feltöltésénél: {ev} -> {e}")
+
+
+# === Használat ===
+gs = GetSchedule()
+events = gs.parse_html()
+print(events)
+
+uploader = CalUpload()
+uploader.upload_events(events)
