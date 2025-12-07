@@ -85,17 +85,21 @@ class KretaLogin:
             EC.presence_of_element_located((By.CSS_SELECTOR, "input#UserName.form-control"))
         )
         username_input.send_keys(self.username)
+        time.sleep(1)
         password_input = wait.until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "input#Password.form-control"))
         )
+        time.sleep(1)
         password_input.send_keys(self.password)
         login_button = wait.until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "button#submit-btn"))
         )
+        time.sleep(1)
         login_button.click()
         ellenorzo_btn = wait.until(
             EC.presence_of_element_located((By.XPATH, "//div[@onclick=\"BelepesKezelo.changeRole('Ellenorzo')\"]"))
         )
+        time.sleep(1)
         driver.execute_script("arguments[0].scrollIntoView(true);", ellenorzo_btn)
         driver.execute_script("arguments[0].click();", ellenorzo_btn)
         try:
@@ -164,15 +168,12 @@ class CalUpload:
                 cal = Calendar()
                 cal.add_component(ical_event)
                 self.calendar.add_event(cal.to_ical())
-                print(f"Feltöltve: {subject} - {ev['date']} {full_time}")
             except Exception as e:
                 print(f"Hiba az esemény feltöltésénél: {ev} -> {e}")
-
+        print("Események feltöltve a CalDAV naptárba.")
 
 # === Használat ===
 gs = GetSchedule()
 events = gs.parse_html()
-print(events)
-
 uploader = CalUpload()
 uploader.upload_events(events)
