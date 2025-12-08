@@ -1,0 +1,450 @@
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Csatlakozva a naptárhoz: kreta
+Események feltöltve a CalDAV naptárba.
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
+Később gomb megnyomva.
+HTML mentve: temp/orarend.html
+Traceback (most recent call last):
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 177, in <module>
+    events = gs.parse_html()
+             ^^^^^^^^^^^^^^^
+  File "/home/herkaba/Programs/ekreta-caldav/sync.py", line 52, in parse_html
+    "day": day_map[col_index]["day"],
+           ~~~~~~~^^^^^^^^^^^
+KeyError: 4
