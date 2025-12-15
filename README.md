@@ -85,6 +85,4 @@ If you use Conda, activate the environment inside `run_sync.sh` before running `
 - Keep `.env` out of version control. Add secrets to your CI/CD secret manager if automating remotely.
 
 **License**
-Summary: This project is licensed under the MIT License.
-File: See LICENSE for the full text.
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+Summary: This project is licensed under a custom license!
