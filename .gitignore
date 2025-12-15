@@ -1,3 +1,5 @@
 .env
 temp/
 sync.log
+__pycache__/
+config.py
