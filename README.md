@@ -48,6 +48,14 @@ caldav_pwd=YOUR_CALDAV_PASSWORD
 
 Do NOT commit your `.env` file — it contains secrets.
 
+Create a `config.py` if you want to rewrite the subject names in your case:
+
+```
+classes = {
+    "write the original subject": "mapped subject",
+}
+```
+
 **How it works (high level)**
 - `KretaLogin` (Selenium): logs into e‑Kréta, switches role if needed, saves the calendar HTML to `temp/orarend.html`.
 - `GetSchedule.parse_html`: parses `temp/orarend.html` and returns a list of events (date, start/end, subject, teacher, room).
