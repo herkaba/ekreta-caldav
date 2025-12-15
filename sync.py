@@ -146,14 +146,18 @@ class CalUpload:
                 end_hour, end_minute = map(int, end_str.split(":"))
                 start_dt = datetime(start_year, start_month, start_day, start_hour, start_minute)
                 end_dt = datetime(start_year, start_month, start_day, end_hour, end_minute)
-                from config import classes
+                try:
+                    from config import classes
+                except ImportError:
+                    print("[yellow]Nincs config.py fájl, az óranevek nem lesznek lecserélve.[/yellow]")
+                    classes = {}
                 ical_event = Event()
                 if ev["cancelled"]:
                     print(f"[yellow]Esemény törölt: {ev}[/yellow]")
                     ical_event.add("status", "canceled")
-                    ical_event.add("summary", "[ELMARADT] " + classes.get(ev["subject"]))
+                    ical_event.add("summary", "[ELMARADT] " + classes.get(ev["subject"], ev["subject"]))
                 else:
-                    ical_event.add("summary", classes.get(ev["subject"]))
+                    ical_event.add("summary", classes.get(ev["subject"], ev["subject"]))
                 ical_event.add("dtstart", start_dt)
                 ical_event.add("dtend", end_dt)
                 ical_event.add("description", f"Tantárgy: {ev['subject']}\nTanár: {ev['teacher']}\nTerem: {ev['room'].strip().replace('(', '').replace(')', '')}")
