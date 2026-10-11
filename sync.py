@@ -453,32 +453,23 @@ class CalUpload:
                 "Nincs elérhető CalDAV naptár."
             )
 
-        requested_name = os.getenv(
-            "caldav_calendar"
-        )
+        requested_name = os.getenv("caldav_calendar", "").strip()
+        if not requested_name:
+            raise RuntimeError("Hiányzik a caldav_calendar a .env fájlból.")
 
-        if requested_name:
-            self.calendar = next(
-                (
-                    c
-                    for c in calendars
-                    if c.get_display_name() == requested_name
-                ),
-                None,
+        matches = [
+            calendar for calendar in calendars
+            if (calendar.get_display_name() or "").strip() == requested_name
+        ]
+        if len(matches) != 1:
+            available = ", ".join(repr(c.get_display_name()) for c in calendars)
+            raise RuntimeError(
+                f"A megadott CalDAV naptár nem található vagy nem egyértelmű: "
+                f"{requested_name!r}. Elérhető naptárak: {available}"
             )
 
-            if self.calendar is None:
-                raise RuntimeError(
-                    f"Nem található CalDAV naptár: {requested_name}"
-                )
-
-        else:
-            self.calendar = calendars[0]
-
-        self.name = (
-            self.calendar.get_display_name()
-            or "ismeretlen"
-        )
+        self.calendar = matches[0]
+        self.name = requested_name
 
     @staticmethod
     def parse_times(event):
